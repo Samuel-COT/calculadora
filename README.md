@@ -1,8 +1,16 @@
-# React + Vite
+# Calculadora React & Node
+### Uma calculadora simples de fácil utilização, desenvolvida no React e Node.js, essa calculadora realiza operações aritméticas básicas e foi desenvolvida para fins de estudo e aprimoramento de conhecimentos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Descrição
+### Esse projeto possui uma interface que simula uma calculadora e realiza as quatros operações fundamentais da aritmética, sendo elas:
+* somar
+* subtrair
+* multiplicar
+* dividir
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Forma de utilizar:
+### Para rodar o projeto será necessário:
+1. instalar o Node.js [clique aqui](https://nodejs.org/)
+ - verificação: execute os seguintes códigos no terminal;
+    - node -v
+    - npm -v
