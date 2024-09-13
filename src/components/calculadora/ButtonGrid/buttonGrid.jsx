@@ -1,10 +1,6 @@
-
-
 import * as styles from "./styles";
 
 export default function Teclado({ valor, atualizar, tela }) {
-
-
 
   const botaoApagar = () => {
     atualizar('')
@@ -19,23 +15,23 @@ export default function Teclado({ valor, atualizar, tela }) {
     }
 
     if (tela.includes('-')) {
-      const soma = tela.split('-');
-      const x = Number(soma[0]);
-      const y = Number(soma[1]);
+      const subtrair = tela.split('-');
+      const x = Number(subtrair[0]);
+      const y = Number(subtrair[1]);
       return atualizar(x - y)
     }
 
     if (tela.includes('*')) {
-      const soma = tela.split('*');
-      const x = Number(soma[0]);
-      const y = Number(soma[1]);
+      const multiplicar = tela.split('*');
+      const x = Number(multiplicar[0]);
+      const y = Number(multiplicar[1]);
       return atualizar(x * y)
     }
 
     if (tela.includes('/')) {
-      const soma = tela.split('/');
-      const x = Number(soma[0]);
-      const y = Number(soma[1]);
+      const dividir = tela.split('/');
+      const x = Number(dividir[0]);
+      const y = Number(dividir[1]);
       return atualizar(x / y)
     }
   }
@@ -47,11 +43,10 @@ export default function Teclado({ valor, atualizar, tela }) {
         <styles.StyledButton
           key={index}
 
-          onClick={() => atualizar(tela + v)}
+          onClick={() => tela.length < 17 ? atualizar(tela + v) : atualizar(tela)}
         > {v} </styles.StyledButton>
       )}
-
-      <styles.StyledIgual value={'='} onClick={botaoIgual} >=</styles.StyledIgual>
+       <styles.StyledIgual value={'='} onClick={botaoIgual} >=</styles.StyledIgual>
 
     </styles.StyledContainer>
 
