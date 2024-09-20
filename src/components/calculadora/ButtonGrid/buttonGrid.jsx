@@ -35,19 +35,25 @@ export default function Teclado({ valor, atualizar, tela }) {
       return atualizar(x / y)
     }
   }
-
+  const botoes = (v) => {
+    if (/[\+\-\*\/]/.test(tela) && /[\+\-\*\/]/.test(v)) {
+      return;     
+    }
+      atualizar (tela + v)
+  }
 
   return <>
+
     <styles.StyledContainer>
       {valor && valor.map((v, index) =>
         <styles.StyledButton
           key={index}
 
-          onClick={() => tela.length < 17 ? atualizar(tela + v) : atualizar(tela)}
+          onClick={() => botoes (v)}
         > {v} </styles.StyledButton>
       )}
-       <styles.StyledIgual value={'='} onClick={botaoIgual} >=</styles.StyledIgual>
 
+       <styles.StyledIgual onClick={botaoIgual} >=</styles.StyledIgual>
     </styles.StyledContainer>
 
     <styles.StyledApagar onClick={botaoApagar} >APAGAR</styles.StyledApagar>
