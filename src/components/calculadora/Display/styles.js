@@ -9,9 +9,10 @@ export const StyledContainer = styled.div`
     background-color: #f0f0f0;
     margin-bottom: 40px;
     display: flex ;
-    justify-content: center;
+    justify-content: left;
     margin: 0 auto;
     height: 50px;
+    overflow:hidden;
 `;
 
 export const StyledText = styled.h1`
