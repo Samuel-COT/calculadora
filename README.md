@@ -10,7 +10,15 @@
 
 # Forma de utilizar:
 ### Para rodar o projeto será necessário:
-1. instalar o Node.js [clique aqui](https://nodejs.org/)
- - verificação: execute os seguintes códigos no terminal;
-    - node -v
-    - npm -v
+ - Ter o node instalado
+ - Ter o npm instalado
+ - Ter o styled-components instalado
+
+# Como rodar o projeto
+1. clone o repositório
+   ``` bash
+   git clone https://github.com/Samuel-COT/calculadora.git
+
+2. instale as dependências do Node
+    ``` bash
+   npm i
