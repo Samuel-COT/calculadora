@@ -22,5 +22,3 @@
 2. instale as dependências do Node
     ``` bash
    npm i
-
-the end
