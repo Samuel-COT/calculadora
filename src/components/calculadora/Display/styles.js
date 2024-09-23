@@ -9,7 +9,7 @@ export const StyledContainer = styled.div`
     background-color: #f0f0f0;
     margin-bottom: 40px;
     display: flex ;
-    justify-content: left;
+    justify-content: right;
     margin: 0 auto;
     height: 50px;
     overflow:hidden;

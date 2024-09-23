@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const Text = styled.h1`
   font-size: 3rem;
-  color:ivory;
+  color:black;
   font-family: monospace;
 
 `;

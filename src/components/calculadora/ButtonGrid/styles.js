@@ -12,7 +12,7 @@ export const StyledContainer = styled.div`
 export const StyledButton = styled.button`
   padding: 15px;
   font-size: 2rem;
-  background-color: #3c3c3c;
+  background-color: #696969;
   border: 2px solid #ccc;
   cursor: pointer;
   border-radius: 5px;
@@ -25,17 +25,17 @@ export const StyledButton = styled.button`
 
 
 export const StyledCalc = styled.div`
-  border: 3px solid black;
+  
   border-radius: 10px;
   padding: 20px;
   width: 320px;
   margin: 0 auto;
-  background-color: #8B8B83;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #DCDCDC;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
 `;
 
 export const StyledApagar = styled.button`
-  background-color: #4F4F4F;
+  background-color: #696969;
   color: white;
   border: none;
   border-radius: 5px;
@@ -50,7 +50,7 @@ export const StyledApagar = styled.button`
 `;
 
 export const StyledIgual = styled.button`
-  background-color: #363636;
+  background-color: #696969;
   color: white;
   border: none;
   border-radius: 5px;
