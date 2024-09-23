@@ -12,14 +12,15 @@ export const StyledContainer = styled.div`
 export const StyledButton = styled.button`
   padding: 15px;
   font-size: 2rem;
-  background-color: #696969;
+  background-color: rgb(58, 57, 57);
   border: 2px solid #ccc;
   cursor: pointer;
   border-radius: 5px;
   color : white; 
 
   &:hover {
-    background-color: #ddd;
+    background-color: black;
+    color: white;
   }
 `;
 
@@ -35,22 +36,25 @@ export const StyledCalc = styled.div`
 `;
 
 export const StyledApagar = styled.button`
-  background-color: #696969;
+  background-color: rgb(58, 57, 57);
+  align-items: center;
   color: white;
   border: none;
   border-radius: 5px;
   padding: 10px;
   font-size: 26px;
   border: 2px solid #ccc;
+  margin-left: 94px;
 
   &:hover {
-    background-color: #ddd;
+    background-color: black;
+    color: white;
   }
 
 `;
 
 export const StyledIgual = styled.button`
-  background-color: #696969;
+  background-color: rgb(58, 57, 57);
   color: white;
   border: none;
   border-radius: 5px;
@@ -59,6 +63,7 @@ export const StyledIgual = styled.button`
   border: 2px solid #ccc;
 
   &:hover {
-    background-color: #ddd;
+    background-color: black;
+    color: white;
   }
 `;
